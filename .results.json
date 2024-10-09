@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 5,
+    "passes": 2,
+    "pending": 0,
+    "failures": 3,
+    "start": "2024-10-09T10:45:57.035Z",
+    "end": "2024-10-09T10:45:57.398Z",
+    "duration": 363
+  },
+  "tests": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'BOB' to equal 'bob'",
+        "showDiff": true,
+        "actual": "BOB",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'BOB' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:6:38)\n    at process.processImmediate (node:internal/timers:483:21)"
+      }
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'BOB' to equal 'bob'",
+        "showDiff": true,
+        "actual": "BOB",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'BOB' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:12:38)\n    at process.processImmediate (node:internal/timers:483:21)"
+      }
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'maybe bob' to equal undefined",
+        "showDiff": true,
+        "actual": "maybe bob",
+        "stack": "AssertionError: expected 'maybe bob' to equal undefined\n    at Context.<anonymous> (test/indexTest.js:21:38)\n    at process.processImmediate (node:internal/timers:483:21)"
+      }
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'BOB' to equal 'bob'",
+        "showDiff": true,
+        "actual": "BOB",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'BOB' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:6:38)\n    at process.processImmediate (node:internal/timers:483:21)"
+      }
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'BOB' to equal 'bob'",
+        "showDiff": true,
+        "actual": "BOB",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'BOB' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:12:38)\n    at process.processImmediate (node:internal/timers:483:21)"
+      }
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'maybe bob' to equal undefined",
+        "showDiff": true,
+        "actual": "maybe bob",
+        "stack": "AssertionError: expected 'maybe bob' to equal undefined\n    at Context.<anonymous> (test/indexTest.js:21:38)\n    at process.processImmediate (node:internal/timers:483:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
